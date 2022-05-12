@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+	width:1000px;
+	display:block;
+}
+
+h2 {
+	display:flex;
+	justify-content:space-evenly;
+}
+
+table,th,td{
+	border:solid 1px black;
+	margin:20px 400px;
+}
+
+table{
+	margin:0 auto;
+	border-collapse:collapse;
+}
+
+th{
+	height:20px;
+	background-color:rgb(230,231,232);
+}
+
+.touroku{
+	display:flex;
+}
+
+.header{
+	background:gray;
+	display:flex;
+	justify-content:space-evenly;
+}

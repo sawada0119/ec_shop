@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	width:100vw;
+	height:auto;
+}
+
+.waku{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.koumoku{
+	inline-size:300px;
+	border:solid 1px black;
+}
+
+.koumoku p:not(:last-child){
+	border-bottom:solid 1px black;
+}
+
+.header{
+	background:gray;
+	display:flex;
+	justify-content:space-evenly;
+	margin-top:10px;
+}

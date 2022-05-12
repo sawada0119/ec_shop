@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+	width:1000px;
+	display:block;
+}
+
+h2 {
+	display:flex;
+	justify-content:space-evenly;
+	background:black;
+	color:white;
+	width:100vw;
+	
+}
+
+.error{
+	color:red;
+}
+
+main {
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:black solid 1px;
+	width:300px;
+	margin-left:370px;
+}
+
+submain {
+	display:flex;
+	justify-content:space-evenly;
+}
+
+header {
+	display:flex;
+	justify-content:space-evenly;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+	width:100vw;
+	height:auto;
+}
+
+h3{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.henkou{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sousin{
+	margin-top:10px;
+	margin-left:70px;
+}
+
+.error{
+	color:red;
+	display:flex;
+	justify-content:space-evenly;
+}

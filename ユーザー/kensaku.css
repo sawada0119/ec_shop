@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body{
+	width:100vw;
+}
+
+@media screen and (min-width:0px) and (max-width:500px){
+	.syouhin_mune{
+		flex-wrap:wrap;
+	}
+	
+	.syouhin_mune>p{
+		width:100%;
+		margin-right:5%;
+	}
+	
+}
+
+@media screen and (min-width:501px) and (max-width:840px){
+	.syouhin_mune{
+		flex-wrap:wrap;
+	}
+	
+	.syouhin_mune>p{
+		width:49%;
+		margin-right:5%;
+	}
+}
+
+@media screen and (min-width:841px){
+	.syouhin_mune{
+		flex-wrap:wrap;
+		width:1000px;
+		margin:0 auto;
+	}
+	
+	.syouhin_mune>p{
+		margin-right:5%;
+	}
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background:black;
+}
+
+form{
+	display:flex;
+	justify-content: center;
+	margin-top:5px;
+}
+
+.syouhin_mune{
+	width:100%;
+	display:flex;
+	text-align:center;
+}
+
+.syouhin_mune>p{
+	border:1px solid black;
+	border-radius:15px;
+	overflow-wrap: break-word;
+	inline-size:240px;
+	
+}
+
+ul,li{
+	margin:0;
+	padding:0;
+}
+
+
+ul{
+	list-style:none;
+}
+
+li{
+	width:150px;
+	float:left;
+}
+
+.kaiin,.gest{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.kaiin input,.gest input{
+	margin-top:10px;
+}
+
+ul:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+header>ul>li>a{
+	display:block;
+	padding:1ren 0;
+	text-align:center;
+	background:black;
+	text-decoration:none;
+	color:white;
+}
+
+.koumoku{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	background:gray;
+}
+
+.koumoku a{
+	color:white;
+}
+
+a:hover{
+	background:rgb(224,224,224,0.5);
+	font-weight:bold;
+}
+
+caption{
+	caption-side:bottom;
+}
+
+.header_2{
+	background:gray;
+	display:flex;
+	justify-content:space-evenly;
+}
