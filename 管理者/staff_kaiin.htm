@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>スタッフ会員登録</title>
+	<link rel="stylesheet" href="kaiintouroku.css">
+</head>
+<body>
+	<div>
+	<h2>スタッフ会員登録</h2>
+	<form action="staff_kaiintouroku.php" method="post">
+		<table>
+			<tr>
+				<th><label for="name">ID名</label></th>
+				<td><p>ID名を入力してください</p><br>
+				<input type="text" name="name" size="20"></td>
+			</tr>
+			<tr>
+				<th><label for="pass">パスワード</label></th>
+				<td><p>パスワードを入力してください</p><br>
+				<input type="password" name="pass" size="20"><br>
+				<p>パスワードを再度入力してください</p><br>
+				<input type="password" name="pass_2" size="20"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" value="登録情報のチェック"></th>
+			</tr>
+		</table>
+		
+	</form>
+	</div>
+</body>
+</html>
